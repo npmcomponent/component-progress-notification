@@ -1,7 +1,7 @@
 {
-  "name": "progress-notification",
+  "name": "component-progress-notification",
   "description": "Progress notification component",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "keywords": [
     "progress",
     "notify",
@@ -9,23 +9,14 @@
     "ui",
     "growl"
   ],
+  "styles": [
+    "notification.css"
+  ],
   "dependencies": {
-    "inherit-component": "*",
-    "jquery-component": "*",
-    "progress-component": "*",
-    "notification-component": "*"
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git",
+    "component-progress": "git://github.com/npmcomponent/component-progress.git",
+    "component-notification": "git://github.com/npmcomponent/component-notification.git"
   },
-  "component": {
-    "scripts": {
-      "progress-notification/index.js": "index.js",
-      "progress-notification/template.js": "template.js"
-    },
-    "styles": [
-      "notification.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/progress-notification.git"
-  }
+  "license": "MIT"
 }

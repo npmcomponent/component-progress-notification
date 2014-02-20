@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var Notification = require('notification').Notification
-  , Progress = require('progress')
-  , inherit = require('inherit')
-  , o = require('jquery');
+var Notification = require('component-notification').Notification
+  , Progress = require('component-progress')
+  , inherit = require('component-inherit')
+  , o = require('component-jquery');
 
 /**
  * Expose `notify`.
